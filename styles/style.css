@@ -27,17 +27,15 @@
   align-items: center;
   gap: 10px 33px;
   font-size: 18px;
-  list-style: none;
-}
-
-.header__link {
-  text-decoration: underline;
+  list-style: circle;
   text-underline-offset: 4px;
-  list-style-type: circle;
 }
 
 .header__link_active {
   text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
